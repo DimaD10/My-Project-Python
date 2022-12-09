@@ -4,7 +4,7 @@ while(True):
 
             empty = 0
             word = input("\nВведіть слово: ")
-            list = src.read().split('\n')
+            list = src.read().split('\n\n')
             for a in list:
                 for b in a.split():
                     if b.lower() == word.lower():
